@@ -68,7 +68,7 @@ var lengthGallery = picsGallery.length;
 grid.innerHTML = "";
 const baseUrl = "resources/";
 picsGallery.forEach((pics,i) => {
-  grid.innerHTML += `<div class="pics" style="background-image: url(${baseUrl + pics.pic});">
+  grid.innerHTML += `<div class="pics" style="background-image: url(${pics.pic});">
         <div class="info">
         <p>${pics.desc}</p>
         </div>
